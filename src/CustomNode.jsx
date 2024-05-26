@@ -1,17 +1,14 @@
 import React from 'react';
-import styled from 'styled-components';
+import { Handle } from 'react-flow-renderer';
 
-const NodeBox = styled.div`
-  border: 1px solid #000;
-  border-radius: 5px;
-  padding: 10px;
-  text-align: center;
-`;
+const SkillNode = ({ data }) => {
+  return (
+    <div className="skill-node" style={{ background: '#fff', padding: 10, border: '1px solid #ddd', borderRadius: 5 }}>
+      <Handle type="target" position="top" style={{ borderRadius: 0 }} />
+      <div>{data.label}</div>
+      <Handle type="source" position="bottom" style={{ borderRadius: 0 }} />
+    </div>
+  );
+};
 
-const CustomNode = ({ nodeDatum, toggleNode }) => (
-  <NodeBox onClick={() => nodeDatum.onClick && nodeDatum.onClick()}>
-    {nodeDatum.name}
-  </NodeBox>
-);
-
-export default CustomNode;
+export default SkillNode;
