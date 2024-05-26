@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Skillsture-Demo/static/css/main.b3eae0f3.css",
+    "main.js": "/Skillsture-Demo/static/js/main.6e710f13.js",
+    "static/js/453.1b6cbde4.chunk.js": "/Skillsture-Demo/static/js/453.1b6cbde4.chunk.js",
+    "index.html": "/Skillsture-Demo/index.html",
+    "main.b3eae0f3.css.map": "/Skillsture-Demo/static/css/main.b3eae0f3.css.map",
+    "main.6e710f13.js.map": "/Skillsture-Demo/static/js/main.6e710f13.js.map",
+    "453.1b6cbde4.chunk.js.map": "/Skillsture-Demo/static/js/453.1b6cbde4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b3eae0f3.css",
+    "static/js/main.6e710f13.js"
+  ]
+}
